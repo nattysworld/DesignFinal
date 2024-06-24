@@ -76,9 +76,12 @@ body.dark {
   color: white;
 }
 
+
+
 li.dark {
   color: white;
 }
+
 
 .assignments-container {
   display: flex;
@@ -163,6 +166,11 @@ a:hover {
     border-radius: 40%; /* Change to more rounded shape on hover */
     background-color: lightcoral; /* Change background color on hover */
   }
+}
+
+/* Specific dark mode styles for container titles */
+body.dark .container h3 {
+  color: black; /* Make titles black in dark mode */
 }
 
 

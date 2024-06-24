@@ -1,0 +1,33 @@
+/* Default body styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* Default background color */
+    color: #333; /* Default text color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+}
+
+/* Day mode */
+body.day {
+    background-color: #fff; /* Light background color for day */
+    color: #333; /* Dark text color for day */
+}
+
+/* Night mode */
+body.night {
+    background-color: #333; /* Dark background color for night */
+    color: #fff; /* Light text color for night */
+}
+
+/* Clock display styles */
+#clock {
+    display: inline-block;
+    padding: 20px; /* Increase padding for more spacing */
+    border: 3px solid red; /* Red border with thicker line */
+    border-radius: 15px; /* Rounded corners */
+    font-size: 2em; /* Larger font size */
+    text-align: center;
+    width: 300px; /* Set a fixed width */
+    margin: 20vh auto; /* Center horizontally and adjust vertical margin */
+    background-color: #fff; /* Light background color */
+    color: #333; /* Dark text color */
+}
