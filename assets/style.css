@@ -84,6 +84,7 @@ li.dark {
 
 
 .assignments-container {
+  margin-top: 30px;
   display: flex;
   overflow: hidden;
   justify-content: space-between;
@@ -93,7 +94,7 @@ li.dark {
 .container {
   width: 48%;
   padding: 20px;
-  background-color: lightgreen; /* Light green background */
+  background-color: #6cca6c; /* Light green background */
   border-radius: 3%; /* Rounded corners */
 /*  overflow: hidden;  Ensure content respects border radius 
 */  transition: background-color 0.5s ease, border-radius 0.5s ease;
