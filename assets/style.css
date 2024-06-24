@@ -98,11 +98,11 @@ li.dark {
 
 @media (max-width: 988px) {
   .assignments-container {
-    flex-direction: column;
+    display: flex
   }
 
   .container {
-    width: 100%;
+    width: 48%;
     background-color: lightblue;
     border-radius: 10%; /* More pronounced rounding for smaller screens */
   }
@@ -138,6 +138,33 @@ a, a:visited {
 a:hover {
   color: red;
 }
+
+.container:hover {
+  border-radius: 20%; /* Change to circle on hover */
+  background-color: lightyellow; /* Change background color on hover */
+}
+
+@media (max-width: 988px) {
+  .container:hover {
+    border-radius: 20%; /* Change to more rounded shape on hover */
+    background-color: lightgreen; /* Change background color on hover */
+  }
+}
+
+@media (max-width: 700px) {
+  .container:hover {
+    border-radius: 30%; /* Change to more rounded shape on hover */
+    background-color: lightblue; /* Change background color on hover */
+  }
+}
+
+@media (max-width: 500px) {
+  .container:hover {
+    border-radius: 40%; /* Change to more rounded shape on hover */
+    background-color: lightcoral; /* Change background color on hover */
+  }
+}
+
 
 /* uncomment the code below to set the grid */
 
